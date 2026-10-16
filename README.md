@@ -1,6 +1,3 @@
-# COMP2084 Server-Side Scripting Using ASP.NET
-In-class ASP.NET Core MVC application
-
 # RetroGameStore - Student Setup Guide
 Follow these step-by-step instructions to set up, configure, run, and push the **RetroGameStore** ASP.NET Core MVC application to your personal GitHub account.
 

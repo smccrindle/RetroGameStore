@@ -1,5 +1,28 @@
+/* --- Bootstrap variables --- */
+
+:root {
+    /* Main theme color */
+    --bs-primary: #ff2a2a;
+    /* Colour of headings */
+    --bs-heading-color: #ff2a2a
+}
+
+/* Map link colour to main theme colour */
+a {
+    color: var(--bs-primary);
+}
+
+/* Map primary button colours to main theme colour */
+.btn-primary {
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: #cd2121;
+    --bs-btn-hover-border-color: #cd2121;
+    --bs-btn-active-bg: #ff9595;
+}
+
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
@@ -18,7 +41,11 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 60px;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -28,4 +55,9 @@ body {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+
+/* Image thumbnail */
+.img-thumbnail {
+    width: 75px;
 }
